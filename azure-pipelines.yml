@@ -31,8 +31,8 @@ steps:
   displayName: 'Install dependencies'
 
 - task: ArchiveFiles@2
-    DisplayName: 'Archive Files'
-    inputs:
-  rootFolderOrFile: $(System.DefaultWorkingDirectory)
-  includeRootFolder:false
-  archiveType:zip
+  displayName: 'Archive Files'
+  inputs:
+   rootFolderOrFile: $(System.DefaultWorkingDirectory)
+   includeRootFolder:false
+   archiveType:zip
